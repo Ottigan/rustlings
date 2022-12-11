@@ -70,7 +70,7 @@ fi
 
 # Function that compares two versions strings v1 and v2 given in arguments (e.g 1.31 and 1.33.0).
 # Returns 1 if v1 > v2, 0 if v1 == v2, 2 if v1 < v2.
-function vercomp() {
+function vercomp () {
     if [[ $1 == $2 ]]
     then
         return 0
